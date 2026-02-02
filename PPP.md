@@ -1,136 +1,167 @@
-# Project Plan Presentation (PPP) – Smart Home Media System (IN PROGRESS NOT FINAL)
-CSC 494 – Ryan Arnzen
+---
+marp: true
+theme: default
+paginate: true
+---
+
+# Smart Home Media System
+## Project Plan Presentation (PPP)
+
+Ryan Arnzen  
+CSC 494 – Individual Project
 
 ---
 
-## 1) Project Goal
+# 1. Problem
 
-Build a self-hosted home infrastructure server on Ubuntu Server that provides:
+## What problem am I solving?
 
-- Personal cloud storage (Nextcloud)
-- Centralized media storage/management
-- Secure remote access without exposing open ports
-- A foundation for monitoring, security hardening, and future smart-home expansion
+- Multiple paid cloud services
+- Data spread across platforms
+- Privacy concerns
+- Limited customization
 
----
+## Why important?
 
-## 2) Problem Domain
-
-Many home users rely on multiple third-party services for storage and media that:
-
-- cost money over time
-- reduce privacy/control
-- limit customization
-- spread data across platforms
-
-This project consolidates storage + services into a single secure home server.
+- Lower cost
+- More control
+- Private + secure
+- Hands-on systems learning
 
 ---
 
-## 3) Scope
+# 2. Project Focus (Team / Topic)
 
-### MVP (Initial Scope)
-- Ubuntu Server installed and stable
-- Docker installed and used for services
-- Nextcloud deployed and accessible on the local network
-- Secure remote access configured via Cloudflare proxy/tunnel + domain
+## Software-focused infrastructure project
 
-### Future Expansion (Later Phases)
-- Monitoring/logging dashboards
-- Security hardening improvements (firewalls, auth, TLS, container isolation)
-- Media ingestion workflows (ex: DVD → files → organized storage)
-- Additional self-hosted services
+Using home server hardware to build:
 
----
+- Self-hosted applications
+- Personal cloud storage
+- Media management
+- Secure remote access
+- Monitoring & automation
 
-## 4) Planned Features
-
-- Ubuntu Server host
-- Docker-based deployment and management
-- Nextcloud file storage/sync/sharing
-- Cloudflare proxy/tunnel remote access
-- Domain + DNS management (Namecheap)
-- Basic monitoring and system health tracking
-- Media ingestion/organization workflows (future)
+Category:
+**Home automation + server infrastructure**
 
 ---
 
-## 5) High-Level Architecture
+# 3. Two Learning Topics (with AI)
 
-User Devices (TV / Phone / Laptop)
-→ Cloudflare Proxy / Tunnel
-→ Ubuntu Server
-→ Docker Containers (Nextcloud + services)
+## Software Topic
+### Docker & Linux Server Administration
+- containers
+- service orchestration
+- networking
+- reverse proxy configuration
 
-(Architecture diagram will be added to `/docs/architecture/`.)
+## Hardware Topic
+### Server Monitoring & IoT Integration
+- sensors (temps/health)
+- ESP32 → server communication
+- system telemetry
+
+AI assists learning & troubleshooting
 
 ---
 
-## 6) Schedule & Milestones
+# 4. Time Usage Plan
 
-### Sprint 1 – Foundations
-- Ubuntu Server setup
-- Docker installed/configured
-- Repo setup + documentation baseline
+## Iteration 1 → Learn
+- Ubuntu Server basics
+- Docker fundamentals
+- networking & proxy concepts
+- security practices
 
-### Sprint 2 – Core Services + Access
+## Iteration 2 → Build
 - Deploy Nextcloud
-- Configure storage
-- Configure domain + Cloudflare proxy/tunnel access
+- Configure remote access
+- Add monitoring tools
+- Organize media services
 
-### Sprint 3 – Monitoring + Security
-- Add monitoring/logging tools
-- Harden server/container security
-- Document baseline reliability checks
-
-### Sprint 4 – Media + Polish
-- Media ingestion workflows (as time allows)
-- Testing + documentation cleanup
-- Final demo preparation
+Learn → then implement
 
 ---
 
-## 7) Metrics (Burndown + Progress)
+# 5. Features
 
-These metrics will be updated weekly on the Canvas Progress page.
+## MVP
+- Ubuntu Server
+- Docker services
+- Nextcloud
+- Cloudflare secure access
 
-### Burndown
-- Features: **__ / __ complete**  ( __% )
-- Requirements: **__ / __ complete** ( __% )
-
-### Tests (counts)
-- Acceptance tests: __
-- Integration tests: __
-- Unit tests: __
-
-### LoC (Lines of Code)
-- This week: +__
-- Total: __
+## Future
+- monitoring dashboards
+- logging & alerts
+- media ingestion
+- automation
+- IoT sensors
 
 ---
 
-## 8) Learning with AI Topics
+# 6. Architecture
 
-This project is paired with a Learning-with-AI repository. AI is used as a learning assistant
-(explanations, troubleshooting, research) while all implementation is performed manually.
+User Devices  
+↓  
+Cloudflare Proxy  
+↓  
+Ubuntu Server  
+↓  
+Docker Containers  
+(Nextcloud + services)
 
-### Topic 1 (Strong fit): Server & IoT Security
-- Securing Ubuntu Server
-- Securing Docker containers
-- Firewalls, TLS, authentication
-- Secure ESP32 → server communication (future)
-
-### Topic 2 (Strong fit): Monitoring, Logging, & Anomaly Detection
-- Monitoring concepts (Prometheus/Grafana style tools)
-- Log analysis
-- Detecting abnormal behavior (temps, failures)
-- Alerting concepts
+Simple, modular, scalable
 
 ---
 
-## 9) Links
+# 7. Schedule & Milestones
 
-- **Project Repo:** https://github.com/RyArnz/csc494-smart-media-server  
-- **Learning with AI Repo:** https://github.com/RyArnz/csc494-iot-ai-learning  
-- **Canvas Project Page:** https://nku.instructure.com/courses/88152/pages/individual-project-ryan-arnzen  
-- **Canvas Progress Page:** https://nku.instructure.com/courses/88152/pages/individual-progress-ryan-arnzen
+## Sprint 1
+Server setup + Docker
+
+## Sprint 2
+Core services + networking
+
+## Sprint 3
+Monitoring + security
+
+## Sprint 4
+Media features + polish
+
+---
+
+# 8. Metrics (Progress Tracking)
+
+Each week I measure:
+
+- Features completed
+- Requirements completed
+- Lines of Code
+- Tests added
+- Issues/blockers
+
+Used for burndown tracking
+
+---
+
+# 9. Final Goal
+
+By end of semester:
+
+- Working home server prototype
+- Secure remote access
+- Monitoring enabled
+- Demonstration ready
+- Portfolio project
+- Expandable for future IoT work
+
+---
+
+# 10. Learning with AI
+
+AI used as:
+
+- tutor
+- explainer
