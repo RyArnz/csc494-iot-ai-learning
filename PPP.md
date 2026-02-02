@@ -14,14 +14,14 @@ CSC 494 – Individual Project
 
 # 1. Problem
 
-## What problem am I solving?
+### What problem am I solving?
 
 - Multiple paid cloud and streaming services
 - Data spread across platforms and devices
 - Privacy concerns
 - Limited customization
 
-## Why important?
+### Why important?
 
 - Lower cost over time
 - More control
@@ -32,13 +32,13 @@ CSC 494 – Individual Project
 
 # 2. Project Focus (Team / Topic)
 
-## Software-focused infrastructure project
+## Software-focused project
 
 Using home server hardware to build:
 
 - Self-hosted applications
 - Personal cloud storage
-- Media management
+- Media streaming
 - Secure remote access
 - Monitoring & automation
 
@@ -54,11 +54,12 @@ Using home server hardware to build:
 - networking
 - reverse proxy configuration
 
+---
 ## Hardware Topic
 ### Server Monitoring & IoT Integration
 - sensors (temps/health) 
 - ESP32 → server communication
-- system telemetry
+- system monitoring
 
 AI assists learning & troubleshooting
 
@@ -71,7 +72,7 @@ AI assists learning & troubleshooting
 - networking & proxy concepts
 - security practices
 ### Iteration 2 → Build
-- Deploy Nextcloud
+- Deploy Nextcloud and Jellyfin
 - Configure remote access
 - Add monitoring tools
 - Organize media services
@@ -84,14 +85,13 @@ AI assists learning & troubleshooting
 ### MVP
 - Ubuntu Server
 - Docker services
-- Nextcloud
+- Nextcloud / Jellyfin
 - Cloudflare secure access
 
 ### Future
 - monitoring dashboards
 - logging & alerts
 - media ingestion
-- automation
 - IoT sensors
 
 ---
@@ -105,7 +105,7 @@ Cloudflare Proxy
 Ubuntu Server  
 ↓  
 Docker Containers  
-(Nextcloud + services)
+(Nextcloud, Jellyfin, Reverse Proxy)
 
 
 ---
@@ -135,8 +135,6 @@ Each week I measure:
 - Lines of Code
 - Tests added
 - Issues/blockers
-
-Used for burndown tracking
 
 ---
 
