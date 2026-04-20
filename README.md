@@ -10,7 +10,7 @@ Linux, Docker, Networking, Reverse Proxy, and Cloudflare Tunnel for Secure Remot
 Monitoring with Prometheus, Grafana, and Raspberry Pi Health Indicators
 
 ## What I Learned
-I learned how to set up an Ubuntu server and deploy containerized services with Docker. I also learned key networking concepts such as port forwarding, reverse proxying, and tunneling, which were necessary to make the system work securely. AI helped me understand how to communicate server monitoring data to other devices and how to write code that can act on that data.
+I learned how to set up an Ubuntu server and deploy containerized services with Docker. I also learned several networking concepts such as port forwarding, reverse proxying, and tunneling. AI helped me understand how to communicate server monitoring data to other devices and how to write code that can act on that data.
 
 ## Marp Slides
 - Topic 1 PDF: [link]
