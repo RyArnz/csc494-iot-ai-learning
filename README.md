@@ -116,5 +116,5 @@ The most important part of the process was that I still had to test the configur
 
 ## Marp Slides
 
-- Topic 1 PDF: [link]
-- Topic 2 PDF: [link]
+- [[Topic 1 PDF](https://github.com/RyArnz/csc494-iot-ai-learning/blob/main/Slides/Topic%201(1).pdf)]
+- [[Topic 2 PDF](https://github.com/RyArnz/csc494-iot-ai-learning/blob/main/Slides/Topic%202(1).pdf)]
