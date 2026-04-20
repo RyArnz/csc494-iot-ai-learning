@@ -4,13 +4,13 @@
 This repository documents how AI was used as a learning assistant for Linux, Docker, networking, monitoring, and Raspberry Pi integration during the Smart Home Media Server project.
 
 ## Topic 1
-Linux, Docker, and self-hosted service deployment
+Linux, Docker, Networking, Reverse Proxy, and Cloudflare Tunnel for Secure Remote Access
 
 ## Topic 2
-Monitoring, observability, and Raspberry Pi telemetry integration
+Monitoring with Prometheus, Grafana, and Raspberry Pi Health Indicators
 
 ## What I Learned
-[write in your own words]
+I learned how to setup a ubuntu server, install and deploy containers through docker. I learned a lot about networking, port forwarding, reverse proxy, and tunneling. AI taught me how to communicate server monitoring to other devices and build code to act on that data. 
 
 ## Marp Slides
 - Topic 1 PDF: [link]
